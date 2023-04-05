@@ -99,11 +99,6 @@ _G.packer_plugins = {
     path = "/home/matt/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["nord.nvim"] = {
-    loaded = true,
-    path = "/home/matt/.local/share/nvim/site/pack/packer/start/nord.nvim",
-    url = "https://github.com/shaunsingh/nord.nvim"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/matt/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -119,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/matt/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/home/matt/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/navarasu/onedark.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/matt/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -128,11 +128,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/matt/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  ["solarized.nvim"] = {
-    loaded = true,
-    path = "/home/matt/.local/share/nvim/site/pack/packer/start/solarized.nvim",
-    url = "https://github.com/shaunsingh/solarized.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

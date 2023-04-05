@@ -13,9 +13,7 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use 'shaunsingh/solarized.nvim'
-
-  use 'shaunsingh/nord.nvim'
+  use 'navarasu/onedark.nvim'
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
