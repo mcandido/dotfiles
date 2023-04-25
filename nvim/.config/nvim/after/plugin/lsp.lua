@@ -1,7 +1,7 @@
 local lsp = require('lsp-zero').preset({'recommended'})
 
 lsp.ensure_installed({
-	'pyright'
+	'pylsp'
 })
 
 local cmp = require('cmp')
@@ -26,6 +26,19 @@ end)
 
 -- (Optional) Configure lua language server for neovim
 require('lspconfig').lua_ls.setup(lsp.nvim_lua_ls())
+
+-- pylsp
+require('lspconfig').pylsp.setup {
+    settings = {
+        pylsp = {
+            plugins = {
+                pycodestyle = {
+                    maxLineLength=140
+                }
+            }
+        }
+    }
+}
 
 lsp.setup()
 
