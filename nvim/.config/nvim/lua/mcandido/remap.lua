@@ -19,3 +19,6 @@ vim.keymap.set('n', '<leader>ff', vim.lsp.buf.format)
 vim.keymap.set('n', '<leader>h', 'viw"hy:match Error /\\<<c-r>h\\>/<CR>')
 -- remove match highlight
 vim.keymap.set('n', '<leader>H', ':match<CR>')
+
+-- NvimTree Toggle
+vim.keymap.set('n', '<leader>>', ':NvimTreeToggle<CR>')
