@@ -14,6 +14,7 @@ vim.keymap.set('n', '<leader>t', ':tabn<cr>')
 vim.keymap.set('n', '<leader>T', ':tabp<cr>')
 
 vim.keymap.set('n', '<leader>ff', vim.lsp.buf.format)
+vim.keymap.set('n', '<leader>fi', '<cmd>silent !isort % --dt -l 140<CR>')
 
 -- highlight words with :match
 vim.keymap.set('n', '<leader>h', 'viw"hy:match Error /\\<<c-r>h\\>/<CR>')
